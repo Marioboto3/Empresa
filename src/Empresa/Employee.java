@@ -1,5 +1,7 @@
 package Empresa;
 
-public abstract class Employee implements CompanyManager {
+public abstract class Employee{
     public abstract double salario();
+
+
 }
