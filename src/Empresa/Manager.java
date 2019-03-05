@@ -1,7 +1,6 @@
 package Empresa;
 
-public class Vendor extends Employee {
-
+public class Manager extends Employee {
     @Override
     public void ponersalario() {
     }
