@@ -2,8 +2,12 @@ package Empresa;
 
 public class Vendor extends Employee {
 
-    Venta [] ventas;
+    List<Venta> ventas;
     @Override
     public void ponersalario() {
+    }
+
+    public void addVenda(int id, double venda) {
+        this.ventas.add(new Venda(id, venda));
     }
 }
