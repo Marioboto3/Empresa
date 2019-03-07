@@ -1,6 +1,7 @@
 package Empresa;
 
 public abstract class Employee{
+<<<<<<< HEAD
     public abstract void ponersalario();
     String name;
     int id;
@@ -11,4 +12,9 @@ public abstract class Employee{
         this.id=id;
         this.salario=salario;
     }
+=======
+    public abstract double salario();
+
+
+>>>>>>> refs/remotes/origin/master
 }
