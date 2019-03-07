@@ -1,7 +1,7 @@
 package Empresa;
 
 public abstract class Employee{
-    public abstract double salario();
+    public abstract void salario();
 
 
 }
