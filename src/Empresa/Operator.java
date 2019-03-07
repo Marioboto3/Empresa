@@ -1,7 +1,9 @@
 package Empresa;
 
 public class Operator extends Employee {
+
     @Override
-    public void ponersalario() {
+    public double salario() {
+        return 0;
     }
 }

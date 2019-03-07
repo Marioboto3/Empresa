@@ -9,23 +9,18 @@ public class CompanyManagerImpl implements CompanyManager {
     }
 
     @Override
-<<<<<<< HEAD
-    public void addEmployee(String name, int id, double salary) {
-=======
     public void addEmployee(String name, String id, double salary) {
 
         Employee e = new Operator(id, name, salary);
         this.employees.put (e.getId(), e);
 
->>>>>>> refs/remotes/origin/master
-    }
-    @Override
-    public void nuevaventa(int idventa, int idvendedor) {
     }
 
-<<<<<<< HEAD
-    void CompanyManagerImpl(){}
-=======
+    @Override
+    public void nuevaventa(int idventa, int idvendedor) {
+
+    }
+
     public List<Employee> findAllByManager(String idManager) {
         Employee e = this.employee.get(idManager);
         Manager manager;
@@ -39,5 +34,4 @@ public class CompanyManagerImpl implements CompanyManager {
         return res;
 
     }
->>>>>>> refs/remotes/origin/master
 }

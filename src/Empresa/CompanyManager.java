@@ -1,5 +1,7 @@
 package Empresa;
 
+import java.util.List;
+
 public interface CompanyManager {
 
 <<<<<<< HEAD
