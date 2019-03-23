@@ -18,8 +18,7 @@ public class CompanyManagerImpl implements CompanyManager {
     }
 
     @Override
-    public void addEmployee(String id, String name, double salary, String idManager) {
-        Employee employee = new Employee(id, name, salary, idManager);
+    public void addEmployee(Employee employee) {
         this.employees.put(employee.getId(), employee);
     }
 
