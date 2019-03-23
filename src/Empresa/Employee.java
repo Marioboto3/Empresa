@@ -5,11 +5,11 @@ public abstract class Employee {
     //Attributes
     private String id;
     private String name;
-    double salary;
+    protected double salary;
     private String idManager;
 
     //Constructor
-    public Employee(String id, String name, double salary, String idManager) {
+    protected Employee(String id, String name, double salary, String idManager) {
         this.id = id;
         this.name = name;
         this.salary = salary;
