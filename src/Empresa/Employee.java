@@ -1,6 +1,6 @@
 package Empresa;
 
-public class Employee {
+public abstract class Employee {
 
     //Attributes
     String id;
@@ -25,11 +25,10 @@ public class Employee {
         return name;
     }
 
-    public double getSalary() {
-        return salary;
-    }
+    public abstract double getSalary();
 
     public String getIdManager() {
         return idManager;
     }
+
 }
