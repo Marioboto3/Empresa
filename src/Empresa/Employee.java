@@ -3,10 +3,10 @@ package Empresa;
 public abstract class Employee {
 
     //Attributes
-    String id;
-    String name;
+    private String id;
+    private String name;
     double salary;
-    String idManager;
+    private String idManager;
 
     //Constructor
     public Employee(String id, String name, double salary, String idManager) {
